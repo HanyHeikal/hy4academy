@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dateId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="Button Demo"
+        android:textColor="#FF5555"
+        android:textSize="30px"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/resultDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Result is 0"
+        android:textSize="30px"
+        tools:context=".ButtonActivity" />
+
+    <Button
+        android:id="@+id/incrementId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment 1" />
+
+    <Button
+        android:id="@+id/decrementId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrement 1" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/multiplyId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiply By 2" 
+            android:layout_weight="50"/>
+
+        <Button
+            android:id="@+id/divideId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divide by 2"
+            android:layout_weight="50" />
+    </LinearLayout>
+    
+    <Button
+            android:id="@+id/sendResultId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Result Back" 
+            android:layout_marginTop="50px"
+            />
+
+</LinearLayout>

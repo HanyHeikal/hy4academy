@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/dateId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="Email"
+        android:textColor="#FF5555"
+        android:textSize="30px"
+        android:textStyle="bold" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        />
+    <EditText 
+        android:id="@+id/toEmails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CC:"
+        />
+    <EditText 
+        android:id="@+id/ccEmails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BCC:"
+        />
+    <EditText 
+        android:id="@+id/bccEmails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        />
+    <EditText 
+        android:id="@+id/subjectId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="message:"
+        />
+    <EditText 
+        android:id="@+id/messageId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <Button 
+        android:id="@+id/sendEmailId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        />
+
+</LinearLayout>

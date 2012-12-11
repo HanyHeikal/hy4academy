@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameTimeOfDayId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25px"
+        android:paddingRight="10px"
+        android:paddingTop="10px"
+        android:text="Music Player"
+        android:textColor="#FF5555"
+        android:textSize="30px"
+        android:textStyle="bold" />
+    
+        <RadioGroup
+        android:id="@+id/musicRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="true"
+            android:text="Play"
+            android:textSize="20px" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:textSize="20px" >
+        </RadioButton>
+       
+    </RadioGroup>
+
+</LinearLayout>

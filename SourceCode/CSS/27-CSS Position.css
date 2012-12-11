@@ -1,0 +1,21 @@
+body {
+	
+}
+
+#id1 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+}
+
+#id2 {
+	
+}
+
+
+h3 { 
+	color: red;
+	position: relative;
+	left: -20px;
+}

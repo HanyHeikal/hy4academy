@@ -1,0 +1,17 @@
+body {
+	
+}
+
+p:first-letter {
+	color:red;
+	font-size: xx-large;
+}
+
+p:first-line {
+
+	color:green;
+	}
+
+h3 { 
+	color: red;
+}

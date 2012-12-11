@@ -1,0 +1,31 @@
+body {
+	background-color: lightgray;
+}
+p.class1 {
+	
+}
+
+ol {
+	list-style-image: url("arrow.png");
+}
+
+ul {
+	list-style-image: url("arrow.png");
+}
+
+#id1 {
+	
+}
+#id2 {
+	
+}
+#id3 {
+	
+}
+p.class2 {
+
+}
+
+h3 {
+	color: red;
+	}

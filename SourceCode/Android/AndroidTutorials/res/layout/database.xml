@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:" />
+
+    <EditText
+        android:id="@+id/nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:" />
+
+    <EditText
+        android:id="@+id/phoneNumberId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addContactId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Contact" />
+
+        <Button
+            android:id="@+id/contactListId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact List" />
+
+        <Button
+            android:id="@+id/firstContactId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Contact" />
+        
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/deleteContactId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Contact" />
+    
+    <TextView
+        android:id="@+id/dbListId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>

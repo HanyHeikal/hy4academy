@@ -1,0 +1,40 @@
+body {
+	
+}
+
+p.class1 {
+	color:orange;
+	font-size: x-large;
+}
+
+#id1 {
+	color:green;
+	font-family: Tahoma;
+	font-size: 40px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+#id2 {
+	color:blue;
+	font-family: Impact;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+#id3 {
+	color:red;
+	font-family: playbill;
+	font-size: 350%;
+	text-transform: lowercase;
+}
+
+p.class2 {
+	color:blue;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+
+h3 {
+	color: red;
+	}

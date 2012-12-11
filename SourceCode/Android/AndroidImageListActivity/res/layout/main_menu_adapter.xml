@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="20px"
+        android:src="@drawable/pen_tablet" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/main_label"
+            android:layout_width="330px"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" 
+            android:textSize="30px"/>
+
+        <TextView
+            android:id="@+id/main_sublabel"
+            android:layout_width="330px"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" 
+            android:textSize="15px"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/main_arrow_logo"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:src="@drawable/blue_right_arrow" />
+
+</LinearLayout>

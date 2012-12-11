@@ -1,0 +1,41 @@
+body {
+	background-color: lightgray;
+}
+p.class1 {
+	
+}
+#id1 {
+	border-style: solid;
+}
+#id2 {
+	border-style: double;
+}
+#id3 {
+	border-style: groove;
+}
+#id4 {
+	border-style: dotted;
+}
+#id5 {
+	border-style: dashed;
+}
+#id6 {
+	border-style: inset;
+}
+#id7 {
+	border-style: outset;
+}
+#id8 {
+	border-style: hidden;
+}
+#id9 {
+	border-style: ridge;
+}
+
+p.class2 {
+	
+}
+
+h3 {
+	color: red;
+	}

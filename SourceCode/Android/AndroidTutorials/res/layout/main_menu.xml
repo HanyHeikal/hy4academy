@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/main_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="HY4Academy Android Tutorial"
+        android:textColor="#FF5500"
+        android:textSize="30px"
+        android:textStyle="bold" />
+    
+    <ExpandableListView
+        android:id="@+id/ExpandableListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Tutorial Details" >
+    </ExpandableListView>
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:text="Exit" />
+
+</LinearLayout>

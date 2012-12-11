@@ -1,0 +1,27 @@
+body {
+	
+}
+
+#id1 {
+	cursor: default;
+}
+
+#id2 {
+	cursor: wait;
+}
+#id3 {
+	cursor: crosshair;
+}
+#id4 {
+	cursor: text;
+}
+#id5 {
+	cursor: pointer;
+}
+#id6 {
+	cursor: help;
+}
+
+h3 { 
+	color: red;
+}

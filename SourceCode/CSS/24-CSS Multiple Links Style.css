@@ -1,0 +1,18 @@
+body {
+	
+}
+
+.class1 a:link {color:red;}
+.class1 a:visited { color:green; }
+.class1 a:hover {color:blue;}
+.class1 a:active {color:green;}
+
+.class2 a:link {color:red; text-decoration:none;}
+.class2 a:visited { color:green; text-decoration:none;}
+.class2 a:hover {color:blue; text-decoration:none;}
+.class2 a:active {color:green; text-decoration:none;}
+
+
+h3 { 
+	color: red;
+}

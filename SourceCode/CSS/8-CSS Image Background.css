@@ -1,0 +1,27 @@
+body {
+	background-image: url(green_nature.jpg);
+}
+
+p.class1 {
+	color:orange;
+}
+
+#id1 {
+	color:white;
+}
+
+#id2 {
+	color:lightblue;
+}
+
+#id3 {
+	color:red;
+}
+
+p.class2 {
+	color:blue;
+}
+
+h3 {
+	color: white;
+	}

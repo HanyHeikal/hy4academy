@@ -1,0 +1,36 @@
+body {
+	
+}
+
+p.class1 {
+	color:orange;
+	font-size: x-large;
+}
+
+#id1 {
+	color:green;
+	font-family: Tahoma;
+	font-size: 40px;
+	font-style: italic;
+}
+
+#id2 {
+	color:blue;
+	font-family: Impact;
+	font-size: 40px;
+	
+}
+
+#id3 {
+	color:red;
+	font-family: playbill;
+	font-size: 350%;
+}
+
+p.class2 {
+	color:blue;
+}
+
+h3 {
+	color: red;
+	}
